@@ -1,0 +1,28 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.card{
+    text-align: center;
+    font-size: 30px;
+}
+
+/* media start */
+/* col-xl */ @media(min-width: 1200px){}
+/* col-lg */ @media(min-width: 992px) and (max-width:1199px){}
+/* col-md */ @media(min-width: 768px) and (max-width:991px){}
+/* col-sm */ @media(min-width: 576px) and (max-width:767px){}
+/* col */ @media(max-width: 220px){
+    .card{
+        display: none;
+    }
+
+    marquee{
+        display: block;
+    }
+
+}
+/* media end */
